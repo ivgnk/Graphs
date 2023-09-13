@@ -39,7 +39,7 @@ def thetest_nodes_and_edges():
     nx.draw(G, with_labels=True, font_weight='bold')
     plt.show()
 
-def thetest_edge_orrder():
+def thetest_edge_order():
     DG = nx.DiGraph()
     DG.add_edge(2, 1)  # adds the nodes in order 2, 1
     DG.add_edge(1, 3)
@@ -59,4 +59,4 @@ def thetest_petersen_graph():
 if __name__ == "__main__":
     # thetest_petersen_graph()
     # thetest_nodes_and_edges()
-    thetest_edge_orrder()
+    thetest_edge_order()
